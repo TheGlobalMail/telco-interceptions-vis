@@ -239,6 +239,7 @@ module.exports = function(grunt) {
           dest: '<%= project.dist %>',
           src: [
             'index.html',
+            'table-embed.html',
             '*.{ico,txt}',
             '.htaccess'
           ]

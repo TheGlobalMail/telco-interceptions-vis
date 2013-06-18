@@ -32,6 +32,12 @@
     background: url(http://big-pharma-data-assets.theglobalmail.org/images/fade.png) no-repeat center top transparent;
     background-size: 100% 12px;
   }
+  .table-table-table tbody td.total{
+    font-weight: bold;
+  }
+  .table-table-table tbody tr:last-child td{
+    font-weight: bold;
+  }
   h4.table-table-table-heading{
     font-size: 1.2rem;
     font-weight: bold;
