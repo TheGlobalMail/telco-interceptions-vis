@@ -1,0 +1,44 @@
+<style>
+  .table-table-table{
+    border-collapse: collapse;
+  }
+  .table-table-table tr{
+    width: 100%;
+  }
+  .table-table-table .value{
+    width: 10%;
+  }
+  .table-table-table tr{
+    display: inline-table
+  }
+  .table-table-table th{
+    vertical-align: bottom;
+    color: #999999;
+    font-style: italic;
+    padding: 10px 5px;
+  }
+  .table-table-table th.first-total{
+    border-top: 1px solid #dddddd;
+  }
+  .table-table-table tbody{
+    border-bottom: 1px solid #dddddd;
+  }
+  .table-table-table td{
+    padding: 15px 5px;
+    border-top: 1px solid #dddddd;
+  }
+
+  .table-table-table tbody tr:first-child {
+    background: url(http://big-pharma-data-assets.theglobalmail.org/images/fade.png) no-repeat center top transparent;
+    background-size: 100% 12px;
+  }
+  h4.table-table-table-heading{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: "ff-meta-serif-web-pro", "Cambria", Georgia, "Times New Roman", Times, serif;
+  }
+
+</style>
+
+
