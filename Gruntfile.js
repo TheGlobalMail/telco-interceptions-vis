@@ -249,12 +249,12 @@ module.exports = function(grunt) {
     cdn: {
       dist: {
         src: ['<%= project.dist %>/index.html'],
-        cdn: 'http://newproject-assets.theglobalmail.org'
+        cdn: 'http://telco-interceptions-vis.theglobalmail.org'
       },
 
       staging: {
         src: ['<%= cdn.dist.src %>'],
-        cdn: 'http://newproject-staging-assets.theglobalmail.org'
+        cdn: 'http://telco-interceptions-vis.theglobalmail.org'
       }
     },
 
@@ -263,7 +263,7 @@ module.exports = function(grunt) {
         user: 'theglobalmail',
         key: process.env.RACKSPACE_API_KEY,
         upload: [{
-          container: 'newproject-staging',
+          container: 'telco-interceptions-vis-staging',
           src: '<%= project.dist %>/**/*',
           dist: '',
           stripcomponents: 1
@@ -274,7 +274,7 @@ module.exports = function(grunt) {
         user: 'theglobalmail',
         key: process.env.RACKSPACE_API_KEY,
         upload: [{
-          container: 'newproject',
+          container: 'telco-interceptions-vis',
           src: '<%= project.dist %>/**/*',
           dist: '',
           stripcomponents: 1
